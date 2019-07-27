@@ -25,7 +25,7 @@ var config = {
     playreadytoken: "",
     widevine: false,
     widevinetoken: "",
-    heuristicprofile: "hybrid",
+    heuristicprofile: "HighQuality",
     autoplay: true,
     muted: false,
     controls: true,
@@ -630,7 +630,7 @@ var appendSourceUrl = function (url) {
             "volumeStep": 0.1,
             "seekStep": 5,
             "enableVolumeScroll": false,
-            "enableMute": true,
+            "enableMute": false,
             "enableFullscreen": true,
             "enableNumbers": true,
             "enableJogStyle": false
