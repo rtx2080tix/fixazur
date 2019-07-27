@@ -629,6 +629,7 @@ var appendSourceUrl = function (url) {
         hotKeys: {
             "volumeStep": 0.1,
             "seekStep": 5,
+			"enableVolumeScroll": false,
             "enableMute": true,
             "enableFullscreen": true,
             "enableNumbers": true,
